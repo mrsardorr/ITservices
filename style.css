@@ -1,0 +1,684 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*                    font-family: 'Montserrat', sans-serif;                */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+/*                    font-family: 'Nunito Sans', sans-serif;                          */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*                    font-family: 'Work Sans', sans-serif;                        */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+.justify-content-xxl-between {
+    justify-content: space-between;
+}
+
+/* xxl 1400 <= infinity */
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.margin {
+    margin: auto;
+}
+h1 , h2 , h3 ,h4 ,h5 ,h6 {
+    font-weight: normal;
+}
+
+.col-xxl-1 {
+    width: calc(100%/12 * 1);
+    padding: 0 15px;
+}
+
+.col-xxl-2 {
+    width: calc(100%/12 * 2);
+    padding: 0 15px;
+}
+
+.col-xxl-3 {
+    width: calc(100%/12 * 3);
+    padding: 0 15px;
+}
+
+.col-xxl-4 {
+    width: calc(100%/12 * 4);
+    padding: 0 15px;
+}
+
+.col-xxl-5 {
+    width: calc(100%/12 * 5);
+    padding: 0 15px;
+}
+
+.col-xxl-6 {
+    width: calc(100%/12 * 6);
+    padding: 0 15px;
+}
+
+.col-xxl-7 {
+    width: calc(100%/12 * 7);
+    padding: 0 15px;
+}
+
+.col-xxl-8 {
+    width: calc(100%/12 * 8);
+    padding: 0 15px;
+}
+
+.col-xxl-9 {
+    width: calc(100%/12 * 9);
+    padding: 0 15px;
+}
+
+.col-xxl-10 {
+    width: calc(100%/12 * 10);
+    padding: 0 15px;
+}
+
+.col-xxl-11 {
+    width: calc(100%/12 * 11);
+    padding: 0 15px;
+}
+
+.col-xxl-12 {
+    width: calc(100%/12 * 12);
+    padding: 0 15px;
+}
+
+/* xl 1200 <= 1399 */
+@media (max-width: 1399px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* lg 992 <= 1199 */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/* md 768 <= 991 */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+/* sm 576 <= 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* xs <= 575 */
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+}
+
+        /* <!-- ===================================================eightHover --> */
+
+.eightHover .box{
+    background-image: url(img/marvin-meyer-SYTO3xs06fU-unsplash.png);
+    height: 300px;
+    background-size: cover;
+    position: relative;
+}
+.eightHover .box img{
+    cursor: pointer;
+}
+.eightHover .box:nth-child(2){
+    background-image: url(img/helloquence-5fNmWej4tAA-unsplash.png);
+}
+.eightHover .box:nth-child(3){
+    background-image: url(img/ben-kolde-Ajcipx1VDXI-unsplash.png);
+}
+.eightHover .box:nth-child(4){
+    background-image: url(img/edho-pratama-T6fDN60bMWY-unsplash.jpg);
+}
+.eightHover .box:nth-child(5){
+    background-image: url(img/sai-kiran-anagani-5Ntkpxqt54Y-unsplash.png);
+}
+.eightHover .box:nth-child(6){
+    background-image: url(img/luca-bravo-9l_326FISzk-unsplash.png);
+}
+.eightHover .box:nth-child(7){
+    background-image: url(img/green-chameleon-WvuTnXz1hSc-unsplash.png);
+}
+.eightHover .box:nth-child(8){
+    background-image: url(img/hal-gatewood-tZc3vjPCk-Q-unsplash.png);
+}
+.eightHover .box .hover{
+    background-color: rgba(0, 0, 0, 0.359);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: .2s;
+}
+.eightHover .box:hover .hover{
+    transform: scale(1);
+}
+
+        /* <!-- ===================================================eightHover --> */
+
+        /* <!-- =======================================================GreenLine --> */
+.greenline {
+    background-color: #007d2f;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.greenline a {
+    font-size: 21,13px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+        /* <!-- =======================================================GreenLine --> */
+
+          
+
+
+  /* ===================================================== ourwork */
+
+.OurWork {
+    padding: 100px 0px;
+}
+.OurWork .col-xxl-6 {
+    margin: auto;
+}
+.OurWork h1 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(25, 25, 25);
+    line-height: 2;
+    text-align: center;
+    font-weight: bold;
+}
+.OurWork p {
+    font-size: 16px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+.OurWork .video {
+    background-image: url(img/aleks-dorohovich-nJdwUHmaY8A-unsplash.png);
+    height: 570px;
+    background-size: cover;
+    position: relative;
+    margin-top: 45px;
+
+}
+.OurWork .video img{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+}
+  /* ===================================================== ourwork end  */
+
+  /* /* ===================================================== servicelist  */
+
+.ServicesList {
+    background-color: #f5f5f5;
+    padding-bottom: 105px;
+    padding-top: 55px;
+}
+.ServicesList .servicebox {
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.ServicesList .servicebox img {
+    margin: auto;
+}
+.ServicesList .servicebox h2 {
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(25, 25, 25);
+    text-transform: uppercase;
+    line-height: 2.5;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.ServicesList .servicebox p {
+    font-size: 16px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-align: center;
+}
+  
+
+  /* /* ===================================================== servicelist  */
+
+  /* ===========================sitata slider  */
+
+.sitataslider {
+    background-color: #007d2f;
+    padding-top: 191px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+.sitataslider .col-xxl-8 {
+    margin: auto;
+}
+.sitataslider h2 {
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    
+}
+.sitataslider h3 {
+    font-size: 16px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 3;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px ;
+    letter-spacing: 1px;
+}
+.sitataslider img{
+    cursor: pointer;
+}
+  
+  
+
+  /* ===========================sitata slider  */
+
+  /* ===============================marka  */
+
+.marka {
+    padding: 60px 0px;
+}
+.marka a {
+    display: block;
+}
+.marka img {
+    display: block;
+    /* height: 72px; */
+    text-align: center;
+    
+}
+.marka .col-xxl-6{
+    margin: auto;
+}
+
+  /* ===============================marka  */
+
+ /* ========================================== aplication  */
+
+ .aplication {
+     background-color: #f5f5f5;
+     padding: 100px 0px;
+ }
+ .aplication .text {
+     margin-bottom: 30px;
+ }
+.aplication .text .col-xxl-6 {
+    margin: auto;
+    text-align: center;
+}
+
+.aplication .text h1 {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(29, 29, 29);
+    line-height: 2.8;
+    text-align: center;
+    font-weight: bold;
+}
+.aplication .text p {
+    font-size: 16px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+
+
+.aplication .inputs .col-xxl-5{
+    width: 48%;
+}
+.aplication .inputs input{
+    padding: 18px 14px;
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.6;
+    border: 0;
+}
+.aplication .inputs input:nth-child(3){
+    margin-top: 30px;
+}
+.aplication .inputs textarea{
+    padding: 18px 14px;
+    font-size: 15px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.6;
+    border: 0;
+    resize: none;
+    margin-top: 30px;
+}
+.aplication .inputs a {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.aplication .inputs button {
+    display: block;
+    padding: 22px 25px 21px 25px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align:center;
+    background-color: #007d2f;
+    border: 0;
+    margin: auto;
+    margin-top: 30px;
+    transition: .2s;
+}
+.aplication .inputs button:hover{
+    transform: scale(1.05);
+}
+  
+  
+
+ /* ========================================== aplication  */
+
+ /* ================================================footer  */
+
+footer {
+    background-color: black;
+    padding: 100px 0px;
+    color: #bcbcbc;
+    font-family: "Nunito Sans";
+}
+footer a{
+    color: #bcbcbc;
+}
+footer .leftpartf h3 {
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+}
+footer .leftpartf h4{
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: 0.05px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+footer .rightpartf{
+    display: flex;
+    justify-content: space-between;
+}
+footer a{
+    transition: .2s;
+}
+footer a:hover{
+    color: white;
+}
+  
+
+ /* ================================================footer  */
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ header{
+    background: url(./img/header\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 280px;
+
+}
+
+header nav{
+    padding-top: 17px;
+    padding-bottom: 74px;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li a{
+    color: #191919;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    display: block;
+    margin-left: 32px;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+    color: #007d2f;
+}
+
+header .top h1{
+    color: #1d1d1d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 35,84px;
+    line-height: 45,27px;
+    margin-bottom: 30px;
+}
+
+header .top p{
+    color: #787878;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 53px;
+}
+
+header .top button{
+    font-size: 12px;
+    line-height: 9px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    background: #007d2f;
+    color: #ffffff;
+    border: none;
+    display: block;
+    padding: 22px 58px 23px 45px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.info{
+    padding-top: 96px;
+}
+
+.info .col-xxl-5{
+    margin: auto;
+}
+
+.info h2{
+    color: #191919;
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-bottom: 45px;
+} 
+
+.info p{
+    color: #787878;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "Nunito+Sans";
+    margin-bottom: 51px;
+    text-align: center;
+}
+
+.info img{
+    display: block;
+    margin: auto;
+    margin-bottom: 42px;
+}
+
+.info .info_bottom{
+    margin-top: 42px;
+}
+
+
+.info .info_bottom .box{
+    
+    padding-top: 64px;
+    float: left;
+    
+}
+
+.info .info_bottom .box h2{
+    color: #171717;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 39px;
+}
+
+.info .info_bottom .box p{
+    color: #111111;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+    
+}
+
+.sec_img{
+    margin-top: -42px;
+    background: #007d2f;
+}
+
+
+
+
+
+
+
+
+
+
+/* =============================== EDITED */
+
+.info .info_bottom .box p {
+    float: left;
+}
+.img_top{
+    padding: 70px 0px;
+    font-family: "Montserrat";
+    color: white;
+}
+.img_top .container .row{
+    justify-content: space-between;
+}
+.mr_img {
+    text-align: center;
+}
+.mr_img h3{
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.mr_img p {
+    font-size: 11px;
+    font-weight:400px ;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.info .box  {
+    padding-bottom: 100px;
+    padding-top: -50px;
+}
+.info .box .col-xxl-7 {
+    padding-top: -100px;
+
+}
+
+/* ===============================  EDITED */
