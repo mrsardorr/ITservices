@@ -96,40 +96,6 @@ h1 , h2 , h3 ,h4 ,h5 ,h6 {
     padding: 0 15px;
 }
 
-/* xl 1200 <= 1399 */
-@media (max-width: 1399px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
-/* lg 992 <= 1199 */
-@media (max-width: 1199px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-/* md 768 <= 991 */
-@media (max-width: 991px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-/* sm 576 <= 767px */
-@media (max-width: 767px) {
-    .container {
-        max-width: 540px;
-    }
-}
-
-/* xs <= 575 */
-@media (max-width: 575px) {
-    .container {
-        width: 100%;
-    }
-}
 
         /* <!-- ===================================================eightHover --> */
 
@@ -382,6 +348,8 @@ h1 , h2 , h3 ,h4 ,h5 ,h6 {
     color: rgb(120, 120, 120);
     line-height: 1.6;
     border: 0;
+    outline: none;
+
 }
 .aplication .inputs input:nth-child(3){
     margin-top: 30px;
@@ -395,6 +363,8 @@ h1 , h2 , h3 ,h4 ,h5 ,h6 {
     border: 0;
     resize: none;
     margin-top: 30px;
+    outline: none;
+
 }
 .aplication .inputs a {
     display: inline-block;
@@ -682,3 +652,184 @@ header .top button{
 }
 
 /* ===============================  EDITED */
+
+
+
+/* xl 1200 <= 1399 */
+@media (max-width: 1399px) {
+    .container {
+        max-width: 1140px;
+    }
+    .justify-content-xl-evenly{
+        justify-content: space-around;
+    }
+}
+
+/* lg 992 <= 1199 */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .aplication .inputs button{
+        font-size: 9px;
+    }
+    footer{
+        padding: 90px 0px;
+    }
+}
+
+/* md 768 <= 991 */
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .col-md-4 {
+        width: calc(100%/12 * 4);
+        padding: 0 15px;
+    }
+    .col-md-10 {
+        width: calc(100%/12 * 10);
+        padding: 0 15px;
+    }
+    .sitataslider{
+        padding-top: 145px;
+    }
+    .aplication .inputs button{
+        padding: 16px 28px 15px 29px;
+    }
+    .col-md-5 {
+        width: calc(100%/12 * 5);
+        padding: 0 15px;
+    }
+    .col-md-8 {
+        width: calc(100%/12 * 8);
+        padding: 0 15px;
+    }
+    .col-md-4 {
+        width: calc(100%/12 * 4);
+        padding: 0 15px;
+    }
+    .col-md-6 {
+        width: calc(100%/12 * 6);
+        padding: 0 15px;
+    }
+    .marg{
+        margin: auto;
+        margin-top: 20px;
+    }
+    footer .rightpartf{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+/* sm 576 <= 767px */
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .OurWork .video{
+        height: 450px;
+    }
+    .col-md-12 {
+        width: calc(100%/12 * 12);
+        padding: 0 15px;
+    }
+    .aplication .text h1{
+        font-size: 28px;
+    }
+    .col-sm-2 {
+        width: calc(100%/12 * 2);
+        padding: 0 15px;
+    }
+    .col-sm-4 {
+        width: calc(100%/12 * 4);
+        padding: 0 15px;
+    }
+    .col-sm-5 {
+        width: calc(100%/12 * 5);
+        padding: 0 15px;
+    }
+    .col-sm-6 {
+        width: calc(100%/12 * 6);
+        padding: 0 15px;
+    }
+    .col-sm-1 {
+        width: calc(100%/12 * 1);
+        padding: 0 15px;
+    }
+    .marg{
+        margin: 0;
+        margin-top: 0;
+    }
+    footer .rightpartf{
+        margin-top: 50px;
+    }
+    footer{
+        padding: 70px 0px;
+    }
+}
+
+/* xs <= 575 */
+@media (max-width: 575px) {
+    .container {
+        width: 100%;
+    }
+    .col-12 {
+        width: calc(100%/12 * 12);
+        padding: 0 15px;
+    }
+    .col-10 {
+        width: calc(100%/12 * 10);
+        padding: 0 15px;
+    }
+    .col-6 {
+        width: calc(100%/12 * 6);
+        padding: 0 15px;
+    }
+    .col-7 {
+        width: calc(100%/12 * 7);
+        padding: 0 15px;
+    }
+    .col-4 {
+        width: calc(100%/12 * 4);
+        padding: 0 15px;
+    }
+    .col-2 {
+        width: calc(100%/12 * 2);
+        padding: 0 15px;
+    }
+    .justify-content-center{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .leftpartf{
+        margin: auto;
+        text-align: center;
+    }
+    .centerpartf{
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .rightpartf{
+        margin: auto;
+        text-align: center;
+    }
+    footer .rightpartf{
+        justify-content: space-evenly;
+    }
+    footer .rightpartf{
+        position: relative;
+        left: 0%;
+    }
+    .inputs input { 
+        width: 100% !important; 
+    }
+    .aplication .inputs button{
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
